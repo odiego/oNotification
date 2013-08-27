@@ -11,11 +11,12 @@ To call the function, just use:
 $.oNotification(options);
 
 options = {
-          notificationMessage: "Default Message",// Message to be show
+          
+           notificationMessage: "Default Message",// Message to be show
           
 	   notificationIconClass: "icon-ok-sign", // Check the full list here: http://twitter.github.io/bootstrap/base-css.html#images
 	
-	notificationType: "success", 		   // (success, error, info, block) - Message type;
+	   notificationType: "success", 		   // (success, error, info, block) - Message type;
 	
 		timeShow: 5000,						   // How long the message will be visible in milliseconds.
 		
